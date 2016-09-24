@@ -2,7 +2,7 @@
 // If num is negative, ignore its sign and treat it as a positive value.
 // If nth is not positive, return -1.
 // Keep in mind that 42 = 00042. This means that findDigit(42, 5) would return 0.
-
+// https://www.codewars.com/kata/576b93db1129fcf2200001e6
 function findDigit(num, nth){
   num += "";
   if(nth <= 0) {
