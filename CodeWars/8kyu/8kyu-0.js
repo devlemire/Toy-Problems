@@ -10,9 +10,5 @@ function sumArray(array) {
   array.splice(array.indexOf(Math.max.apply(null, array)), 1);
   array.splice(array.indexOf(Math.min.apply(null, array)), 1);
 
-  var arr = array.reduce(function(total, nextNum) {
-  	return total + nextNum
-  }, 0);
-
   return array.reduce(function(total, nextNum) { return total + nextNum }, 0);
 }
