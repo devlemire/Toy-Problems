@@ -16,6 +16,3 @@ function sumArray(array) {
 
   return arr;
 }
-
-var arr = [1];
-sumArray(arr);
