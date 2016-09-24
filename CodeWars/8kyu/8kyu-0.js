@@ -14,5 +14,5 @@ function sumArray(array) {
   	return total + nextNum
   }, 0);
 
-  return arr;
+  return array.reduce(function(total, nextNum) { return total + nextNum }, 0);
 }
